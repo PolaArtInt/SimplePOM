@@ -1,0 +1,7 @@
+class CartLocs:
+    cart_header = ('xpath', '//div[@class="subheader"]')
+    cart_btn = ('xpath', '//a[@class="shopping_cart_link fa-layers fa-fw"]')
+    cart_tag = ('xpath', '//a[@class="shopping_cart_link fa-layers fa-fw"]/span')
+
+    cart = ('xpath', '//div[@id="cart_contents_container"]')
+    cart_remove_btn = ('xpath', '//button[@class="btn_secondary cart_button"]')
